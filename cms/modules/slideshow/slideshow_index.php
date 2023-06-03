@@ -28,7 +28,7 @@
                     ?>
                         <tr data-post-id="<?php echo $dt["slideshow_id"]; ?>">
                             <td width="1%" align="center"><?= $no++; ?></td>
-                            <td width="1%"><img src="../../../assets/images/slideshow/<?= $dt['slideshow_image']; ?>" width="150"></td>
+                            <td width="1%"><img src="../../assets/images/slideshow/<?= $dt['slideshow_image']; ?>" width="150"></td>
                             <td><?= $dt['slideshow_judul'] ?></td>
                             <td><?= $dt['slideshow_status'] ?></td>
                             <td><?= $dt['slideshow_order'] ?></td>

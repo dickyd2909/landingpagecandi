@@ -17,7 +17,27 @@ a {text-decoration:none;}
 }
 
 /* menu top */
-#bgtop{width:100%;margin:0 auto;padding:0;}
+#bgtop{width:100%;margin:0 auto;padding: 20px 0;background: #8BAB3E;}
+#botop{width:85%;margin:0 auto;padding:0;}
+.topleft{width:36.33%;margin:0 1%;padding:0;float:left;}
+.topleftbox{width:100%;margin:0 auto;padding:0;}
+.topleftimg{width:20%;margin:0 8% 0 0;padding:0;float:left;}
+.topleftimg img{width:100%;}
+.toplefttit{width:72%;margin:5px auto;padding:0;float:left;}
+.toplefttit h1{color:#fff;font-size: 22px;}
+
+.topmid{width:36.33%;margin: 0 1%;padding:0;float: left;}
+.topmidlink{width:100%;float:right;padding:0;margin:8px auto;}
+.topmidlink ul{list-style: none;margin:0 auto;padding:0}
+.topmidlink ul li{margin: 0 auto;padding: 0;float:left;margin:0 2%;}
+.topmidlink ul li a{color:#fff;font-weight: 300;font-size:17px;}
+.topmidlink ul li a.active{color:#fff;font-weight: 600;font-size:17px;}
+
+.topright{width:21.33%;margin:7.6px 1%;padding:0;float:left;text-align: right;}
+.toprightbutton{margin:0 auto;padding:0;}
+.btnreg{color:#fff;font-weight: 300;font-size:16px;text-transform: uppercase; margin:0 4% 0 0;padding:0}
+.btnlogin{color:#000;font-weight: 600;font-size:16px;text-transform: uppercase; margin:0 4% 0 0;padding:5px 10px;background:#DBDBDB;border-radius:3px;}
+/* #bgtop{width:100%;margin:0 auto;padding:0;}
 #botop{width:90%;margin:0 auto;padding:0;}
 .topleft{width:37%;margin: 0 auto;padding:0;float: left;}
 .topleftimg{width:180px;margin: 0;padding: 0;}
@@ -26,10 +46,10 @@ a {text-decoration:none;}
 .topnav{width:100%;float:right;padding:0;margin:0 auto;}
 .topnav ul{list-style: none;margin:0 auto;padding:0}
 .topnav ul li{margin: 0 auto;padding: 0;float:left;margin:0 2%;}
-.topnav ul li a{color:#000;font-weight: 600;font-size:17px;text-transform: uppercase;}
+.topnav ul li a{color:#000;font-weight: 600;font-size:17px;text-transform: uppercase;} */
 
 /* slideshow */
-#bgslideshow {width:100%;margin:0 auto;background:#00568B;}
+#bgslideshow {width:100%;margin:0 auto;background:#8BAB3E;}
 
 /* about */
 #bgabout{width:100%;margin: 0 auto;padding:50px 0;}

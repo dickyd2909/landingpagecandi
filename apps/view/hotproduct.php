@@ -14,9 +14,9 @@
 					<div class="hotbox">
 						<div class="hotimg">
 							<?php if(!empty($hdt['barang_image'])) { ?>
-								<img src="../cms/assets/images/produk/<?= $hdt['barang_image']; ?>" alt="">
+								<img src="cms/assets/images/produk/<?= $hdt['barang_image']; ?>" alt="">
 							<?php }else{ ?>
-								<img src="../cms/assets/image/no-image.png" alt="">
+								<img src="cms/assets/image/no-image.png" alt="">
 							<?php } ?>
 						</div>
 						<div class="hottit clearfix">

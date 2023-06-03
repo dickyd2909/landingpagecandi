@@ -30,25 +30,25 @@
 	<meta property="article:tag" content="online shop jakarta">
 	<meta property="article:tag" content="market place jakarta">
 	<meta property="article:tag" content="website jakarta">
-    <link href="../cms/assets/images/logo/<?= $mtdt['metadata_gambar']; ?>" rel="shortcut icon" type="image/x-icon" />
-    <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="cms/assets/images/logo/<?= $mtdt['metadata_gambar']; ?>" rel="shortcut icon" type="image/x-icon" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-latest.min.js" ></script>
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<link rel="stylesheet" href="../libs/sweetalert2.min.css">
-	<script src="../libs/sweetalert2.min.js"></script>
+	<link rel="stylesheet" href="libs/sweetalert2.min.css">
+	<script src="libs/sweetalert2.min.js"></script>
     <title>Ipsum Official Website Online Store</title>
 </head>
-<body>
+<Body>
     <?php site('menu');?>
 	<?php site('slideshow');?>
     <?php site('about');?>
     <?php site('hotproduct');?>
 	<?php site('product');?>
     <?php site('footer');?>
-</body>
+</Body>
 </html>
 <?php if(isset($_SESSION['success'])){ ?>
 	<script>

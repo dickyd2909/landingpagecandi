@@ -1,5 +1,5 @@
 <div id="bgslideshow">
-	<script src="../assets/js/jssor.slider-23.1.0.min.js"></script>
+	<script src="assets/js/jssor.slider-23.1.0.min.js"></script>
 	<script type="text/javascript">
 		window.jssor_1_slider_init = function() {
 
@@ -82,7 +82,7 @@
 				while($sdt = $sdb->fetch_array()){
 			?>	  
 				<div>
-					<img data-u="image" src="../assets/images/slideshow/<?= $sdt['slideshow_image']; ?>" alt="<?= $sdt['slideshow_judul']; ?>" title="<?= $sdt['slideshow_judul']; ?>"/>
+					<img data-u="image" src="assets/images/slideshow/<?= $sdt['slideshow_image']; ?>" alt="<?= $sdt['slideshow_judul']; ?>" title="<?= $sdt['slideshow_judul']; ?>"/>
 				</div>
 			<?php } ?>
 		</div>

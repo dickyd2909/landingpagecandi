@@ -13,9 +13,9 @@
 				<div class="allbox">
 					<div class="allimg">
 						<?php if(!empty($adt['barang_image'])) { ?>
-							<img src="../cms/assets/images/produk/<?= $adt['barang_image']; ?>" alt="website jakarta">
+							<img src="cms/assets/images/produk/<?= $adt['barang_image']; ?>" alt="website jakarta">
 						<?php }else{ ?>
-							<img src="../cms/assets/image/no-image.png" alt="">
+							<img src="cms/assets/image/no-image.png" alt="">
 						<?php } ?>
 					</div>
 					<div class="hottit clearfix">

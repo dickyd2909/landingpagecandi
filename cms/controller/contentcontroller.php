@@ -18,7 +18,7 @@
 		$contentcat_id   	= mysqli_real_escape_string($koneksi, $_POST['contentcat_id']);
 		$content_order 		= $odt['LastNo'] + 1;
 		$content_metadesc	= mysqli_real_escape_string($koneksi, $_POST['content_metadesc']);
-		$content_metakey	= mysqli_real_escape_string($koneksi, $_POST['content_metakey']);
+		$content_metakey	= mysqli_real_escape_string($koneksi, $_POST['content_keyword']);
 		$code		   			= md5(uniqid(rand()));
 		$gencode				= substr($code, 0, 3);
 		$replace				= strtolower(str_replace($stringreplace,'_',$content_judul));	
