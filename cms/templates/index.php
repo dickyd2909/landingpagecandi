@@ -100,36 +100,6 @@
 									}else{
 										$ac = "";
 									}
-
-									if($_GET['m'] == 'customer'){
-										$cs = "active";
-									}else{
-										$cs = "";
-									}
-
-									if($_GET['m'] == 'produk'){
-										$pd = "active";
-									}else{
-										$pd = "";
-									}
-
-									if($_GET['m'] == 'penjualan'){
-										$pj = "active";
-									}else{
-										$pj = "";
-									}
-
-									if($_GET['m'] == 'supplier'){
-										$sp = "active";
-									}else{
-										$sp= "";
-									}
-
-									if($_GET['m'] == 'pembelian'){
-										$pb = "active";
-									}else{
-										$pb = "";
-									}
 									if($_GET['m'] == 'slideshow'){
 										$sd = "active";
 									}else{
@@ -150,24 +120,21 @@
 									}else{
 										$co = "";
 									}
-									if($_GET['m'] == 'berita'){
-										$br = "active";
+									if($_GET['m'] == 'galery'){
+										$gal = "active";
 									}else{
-										$br = "";
+										$gal = "";
 									}
 								}
 							?>
 							<li><a href="index.php?m=dashboard" class="navlink <?= $db; ?>">Dashboard</a></li>
 							<li><a href="index.php?m=admincat" class="navlink <?= $ac; ?>">Admin Category</a></li>
 							<li><a href="index.php?m=admin" class="navlink <?= $ad; ?>">Admin</a></li>
-							<li><a href="index.php?m=customer" class="navlink <?= $cs; ?>">Customer</a></li>
-							<li><a href="index.php?m=produk" class="navlink <?= $pd; ?>">Product</a></li>
-							<li><a href="index.php?m=penjualan" class="navlink <?= $pj; ?>">Selling</a></li>
 							<li><a href="index.php?m=slideshow" class="navlink <?= $sd; ?>">Slideshow</a></li>
 							<li><a href="index.php?m=menu" class="navlink <?= $mn; ?>">Menu</a></li>
 							<li><a href="index.php?m=contentcat" class="navlink <?= $cc; ?>">Content Category</a></li>
 							<li><a href="index.php?m=content" class="navlink <?= $co; ?>">Content</a></li>
-							<li><a href="index.php?m=berita" class="navlink <?= $br; ?>">Berita</a></li>
+							<li><a href="index.php?m=galery" class="navlink <?= $gal; ?>">Galery</a></li>
 						</ul>
 					</div>
 					<div class="sidebarview">

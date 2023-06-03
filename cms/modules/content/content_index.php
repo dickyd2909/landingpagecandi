@@ -229,9 +229,9 @@
                 <div class="formlabel">Image</div>
                 <div class="forminput">
 					<?php if(!empty($adt['content_image'])){ ?>
-						<img src="../../../assets/images/content/<?= $adt['content_image']; ?>" width="150">
+						<img src="../../assets/images/content/<?= $adt['content_image']; ?>" width="150">
 					<?php }else{ ?>
-						<img src="../../../assets/images/no-image.png" width="150">
+						<img src="../../assets/images/no-image.png" width="150">
 					<?php } ?>
                 </div>
             </div>
@@ -250,7 +250,7 @@
 			<div id="formbox" class="clearfix">
                 <div class="formlabel">Meta Keyword</div>
                 <div class="forminput">
-                    <textarea name="content_metakey" class="form-control"><?= $adt['content_keyword']; ?></textarea>
+                    <textarea name="content_metakey" class="form-control"><?= $adt['content_metakey']; ?></textarea>
                 </div>
             </div>
             <div id="formbox" class="clearfix">

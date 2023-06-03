@@ -31,30 +31,6 @@
             case 'contentupdate': include("../controller/contentcontroller.php"); break;
             case 'contenthapus': include("../controller/contentcontroller.php"); break;
             // ====================================================================================================
-            // CUSTOMER
-            case 'customer': include("../modules/customer/customer_index.php"); break;
-            case 'customersimpan': include("../controller/customercontroller.php"); break;
-            case 'customerupdate': include("../controller/customercontroller.php"); break;
-            case 'customerhapus': include("../controller/customercontroller.php"); break;
-            // ====================================================================================================
-            // BARANG / PRODUK
-            case 'produk': include("../modules/produk/produk_index.php"); break;
-            case 'produksimpan': include("../controller/produkcontroller.php"); break;
-            case 'produkupdate': include("../controller/produkcontroller.php"); break;
-            case 'produkhapus': include("../controller/produkcontroller.php"); break;
-            // ====================================================================================================
-            // BARANG / PRODUK
-            case 'supplier': include("../modules/supplier/supplier_index.php"); break;
-            case 'suppliersimpan': include("../controller/suppliercontroller.php"); break;
-            case 'supplierupdate': include("../controller/suppliercontroller.php"); break;
-            case 'supplierhapus': include("../controller/suppliercontroller.php"); break;
-            // ====================================================================================================
-			// PENJUALAN
-            case 'penjualan': include("../modules/penjualan/penjualan_index.php"); break;
-            case 'detailpenjualan': include("../modules/penjualan/detailpenjualan.php"); break;
-            case 'statuspenjualan': include("../controller/penjualancontroller.php"); break;
-            case 'supplierhapus': include("../controller/suppliercontroller.php"); break;
-            // ====================================================================================================
 			// SLIDESHOW
             case 'slideshow': include("../modules/slideshow/slideshow_index.php"); break;
             case 'slideshowsimpan': include("../controller/slideshowcontroller.php"); break;
@@ -82,11 +58,11 @@
 			case 'logsvisitor': include("../modules/logs/logsvisitor.php");break;
 			case 'logscontent': include("../modules/logs/logscontent.php");break;
 			// ====================================================================================================
-			// BERITA
-            case 'berita': include("../modules/berita/berita_index.php"); break;
-            case 'beritasimpan': include("../controller/beritacontroller.php"); break;
-            case 'beritaupdate': include("../controller/beritacontroller.php"); break;
-            case 'beritahapus': include("../controller/beritacontroller.php"); break;
+			// GALERY
+            case 'galery': include("../modules/galery/galery_index.php"); break;
+            case 'galerysimpan': include("../controller/galerycontroller.php"); break;
+            case 'galeryupdate': include("../controller/galerycontroller.php"); break;
+            case 'galeryhapus': include("../controller/galerycontroller.php"); break;
             // ====================================================================================================
         }
     }
