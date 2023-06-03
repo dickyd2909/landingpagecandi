@@ -53,11 +53,23 @@ a {text-decoration:none;}
 
 /* about */
 #bgabout{width:100%;margin: 0 auto;padding:50px 0;}
-#boabout{width:990px;margin: 0 auto;padding:0;text-align: center;}
-.aboutfirst{margin: 5px 0;padding: 0;letter-spacing: 3px;font-size:15px;}
-.aboutit{margin: 0 auto;padding: 0;}
-.aboutit h1{font-size:40px;letter-spacing: 2px;}
-.aboutdesc{margin:0 auto;padding: 0;font-size:17px;font-weight: 500;letter-spacing: 2px;}
+#boabout{width:85%;margin: 0 auto;padding:0;}
+.aboutleft{width:30%;margin:0 4% 0 12%;padding:0;float:left;}
+.aboutleftimg{width:80%;margin:0 auto;padding:0;vertical-align: middle;}
+.aboutleftimg img{width:100%;}
+.aboutright{width:40%;margin:23.61px auto;padding:0;float:left;}
+.aboutrighttit{margin:0 auto 2%;padding:0;font-size:21px;font-weight: 600;}
+.aboutrightdesc{margin:0 auto;padding:0;font-size: 17px;font-weight: 300;}
+
+/* Sejarah */
+#bghis{width:100%;margin:0 auto;padding:50px 0;background: rgb(139,171,62);background: linear-gradient(180deg, rgba(139,171,62,1) 0%, rgba(255,255,255,1) 99%);}
+#bohis{width:85%;margin:0 auto;padding:0;}
+.histit{margin:2% 0;padding:0;font-size: 22px;font-weight: 300;text-transform: uppercase;}
+.hisbox{width:100%;margin:0 auto;padding:0;}
+.hisleft{width:46%;margin:0 2% 0 0;padding:0;float:left;}
+.hisleftimg{width:48%;margin:0 2% 0 0;padding:0;float: left;}
+.hisleftimg img{width:100%;}
+
 
 /* hotproduct */
 #bghot{width:100%;margin: 0 auto;padding:50px 0;background:#f9f9f9;}

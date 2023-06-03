@@ -3,15 +3,19 @@
 	$adt = $adb->fetch_array();
 ?>
 <div id="bgabout">
-	<div id="boabout">
-		<div class="aboutfirst">
-			<?= $adt['content_url']; ?>
+	<div id="boabout" class="clearfix">
+		<div class="aboutleft">
+			<div class="aboutleftimg">
+				<img src="assets/images/content/<?= $adt['content_image']; ?>" alt="<?= $adt['content_judul']; ?>" title="<?= $adt['content_judul']; ?>">
+			</div>
 		</div>
-		<div class="aboutit">
-			<h1><?= $adt['content_judul']; ?></h1>
-		</div>
-		<div class="aboutdesc">
-			<?= $adt['content_desc']; ?>
+		<div class="aboutright">
+			<div class="aboutrighttit">
+				<?= $adt['content_judul']; ?>
+			</div>
+			<div class="aboutrightdesc">
+				<?= $adt['content_desc']; ?>
+			</div>
 		</div>
 	</div>
 </div>
