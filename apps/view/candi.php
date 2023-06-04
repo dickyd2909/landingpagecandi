@@ -4,7 +4,7 @@
             <div class="canbtn">
             <?php
                 $no = 1;
-                $db = $koneksi->query("SELECT * FROM content WHERE contentcat_id ='CC006'");
+                $db = $koneksi->query("SELECT * FROM content WHERE contentcat_id ='CC006' AND content_id != 'CO009'");
                 while($dt = $db->fetch_array()){
             ?>
                 <?php if($no == '1'){ ?>
@@ -18,7 +18,7 @@
         <div class="canright">
             <?php
                 $no = 1;
-                $db = $koneksi->query("SELECT * FROM content WHERE contentcat_id ='CC006'");
+                $db = $koneksi->query("SELECT * FROM content WHERE contentcat_id ='CC006' AND content_id != 'CO009' ");
                 while($dt = $db->fetch_array()){
             ?>
                 <?php if($no == '1'){ ?>

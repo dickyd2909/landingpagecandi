@@ -39,7 +39,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<link rel="stylesheet" href="libs/sweetalert2.min.css">
 	<script src="libs/sweetalert2.min.js"></script>
-	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Quattrocento+Sans:wght@400;700&display=swap" rel="stylesheet">	
     <title>Ipsum Official Website Online Store</title>
 </head>
 <Body>
@@ -49,8 +52,8 @@
 	<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#8BAB3E" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,176C384,192,480,192,576,176C672,160,768,128,864,106.7C960,85,1056,75,1152,80C1248,85,1344,107,1392,117.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
 	<?php site('sejarah');?>
 	<?php site('history');?>
-	<?php site('candi');?>
-	<?php site('galery');?>
+	<?php site('candi2');?>
+	<?php site('galery2');?>
 	<?php site('contactus');?>
     <?php site('footer');?>
 </Body>

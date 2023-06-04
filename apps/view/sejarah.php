@@ -1,7 +1,10 @@
 <div id="bghis">
     <div id="bohis">
-        <div class="histit">
+    <div class="galtit">
             Sejarah
+        </div>
+        <div class="galdesc">
+            Sejarah Candi Muara Takus
         </div>
         <div class="hisbox clearfix">
             <?php
