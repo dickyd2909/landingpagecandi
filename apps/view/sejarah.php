@@ -10,12 +10,12 @@
             ?>
             <?= $tdt['content_judul']; ?>
         </div>
-        <div class="hisbox clearfix">
+        <div id="hisbox" class="clearfix">
             <?php
                 $hdb = $koneksi->query("SELECT * FROM content WHERE contentcat_id = 'CC005' AND content_id !='CO015' ORDER BY content_order ASC");
                 while($hdt = $hdb->fetch_array()){
             ?>
-                <div class="hisleft clearfix">
+                <div class="leftbox">
                     <div class="hisleftimg">
                         <img src="assets/images/content/<?= $hdt['content_image']; ?>" alt="<?= $hdt['content_judul']; ?>" title="<?= $hdt['content_judul']; ?>">
                     </div>
@@ -26,7 +26,7 @@
                         <div class="hisleftdesc">
                             <?= $hdt['content_desc']; ?>
                         </div>
-                    </div>     
+                    </div> 
                 </div>
             <?php } ?>    
         </div>

@@ -49,6 +49,7 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
 />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Ipsum Official Website Online Store</title>
 </head>
 <Body>
@@ -58,7 +59,7 @@
 	<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#8BAB3E" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,176C384,192,480,192,576,176C672,160,768,128,864,106.7C960,85,1056,75,1152,80C1248,85,1344,107,1392,117.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
 	<?php site('sejarah');?>
 	<?php site('history');?>
-	<?php site('candi2');?>
+	<?php site('candi3');?>
 	<?php site('galery');?>
 	<?php site('contactus');?>
     <?php site('footer');?>
@@ -84,3 +85,35 @@
 		});
 	</script>
 <?php unset($_SESSION['error']);} ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        speed:400,
+        spaceBetween:10,
+        slidesPerView: 5,
+        grid:{
+            rows:3
+        },
+        autoplay: {
+            delay: 5000,
+        },
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+            slidesPerView: 2,
+            spaceBetween: 10
+            },
+            // when window width is >= 480px
+            480: {
+            slidesPerView: 3,
+            spaceBetween: 10
+            },
+            // when window width is >= 640px
+            640: {
+            slidesPerView: 5,
+            spaceBetween: 10
+            }
+        }
+    });
+</script>
