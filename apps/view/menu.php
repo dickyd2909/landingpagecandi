@@ -14,7 +14,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="topmid">
+		<div class="topbtn">
+			<i class="fa fa-bars" onclick="btntoogle()"></i>
+		</div>
+		<div class="topmid" id="nav">
 			<div class="topmidlink">
 				<ul>
 					<?php
@@ -30,7 +33,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="topright">
+		<div class="topright" id="btnregis">
 			<div class="toprightbutton">
 				<a href="#" class="btnreg">Daftar</a>
 				<a href="#" class="btnlogin">Masuk</a>
@@ -38,3 +41,11 @@
 		</div>	
 	</div>
 </div>
+<script type="text/javascript">
+	function btntoogle(){
+		var nav = document.getElementById("nav");
+		var btn = document.getElementById('btnregis');
+		nav.classList.toggle("active");
+		btn.classList.toggle("active");
+	}
+</script>
