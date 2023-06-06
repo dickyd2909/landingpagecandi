@@ -83,6 +83,9 @@
 			?>	  
 				<div>
 					<img data-u="image" src="assets/images/slideshow/<?= $sdt['slideshow_image']; ?>" alt="<?= $sdt['slideshow_judul']; ?>" title="<?= $sdt['slideshow_judul']; ?>"/>
+					<div class="imgslide">
+						<?= $sdt['slideshow_judul']; ?>
+					</div>
 				</div>
 			<?php } ?>
 		</div>

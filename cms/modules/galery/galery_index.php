@@ -20,7 +20,7 @@
                     </tr>
                 </thead>
                 <tbody id="post_list">
-                    <?php
+					<?php
                         $no = 1;
                         $db = $koneksi->query("SELECT * FROM galery ORDER BY galery_order ASC");
                         while($dt = $db->fetch_array()){
@@ -54,7 +54,7 @@
       <h2>Tambah Data Galery</h2>
     </div>
     <div class="modal-body">
-        <form method="post" action="index.php?m=galerysimpan" enctype="multipart/form-data">
+    <form method="post" action="index.php?m=galerysimpan" enctype="multipart/form-data">
             <div id="formbox" class="clearfix">
                 <div class="formlabel">Nama</div>
                 <div class="forminput">
@@ -96,8 +96,8 @@
 <!-- modal edit -->
 		<!--MODAL EDIT DATA-->
 <?php
-    $adb = $koneksi->query("SELECT * FROM galery ORDER BY galery_order ASC");
-    while($adt = $adb->fetch_array()){
+	$adb = $koneksi->query("SELECT * FROM galery ORDER BY galery_order ASC");
+	while($adt = $adb->fetch_array()){
 ?>
     <div id="myModalEdit<?= $adt['galery_id']; ?>" class="modal">
         <div class="modal-content">
@@ -105,15 +105,7 @@
             <span class="closeedit" id="close<?= $adt['galery_id']; ?>">&times;</span>
             <h2>Edit Galery</h2>
         </div>
-        <div class="modal-body">
-            <form method="post" action="index.php?m=galeryupdate" enctype="multipart/form-data">
-            <div id="formbox" class="clearfix">
-                <div class="formlabel">Nama</div>
-                <div class="forminput">
-                    <input name="galery_nama" type="text" value="<?= $adt['galery_nama']; ?>" class="form-control" required />
-					<input name="galery_id" type="hidden" value="<?= $adt['galery_id']; ?>" class="form-control" required />
-                </div>
-            </div>
+        
             <div id="formbox" class="clearfix">
                 <div class="formlabel">Image</div>
                 <div class="forminput">
@@ -142,9 +134,9 @@
                 <div class="formlabel">Image</div>
                 <div class="forminput">
 					<?php if(!empty($adt['galery_image'])){ ?>
-						<img src="../../assets/images/galery/<?= $adt['galery_image']; ?>" width="150">
+						<img src="../assets/images/galery/<?= $adt['galery_image']; ?>" width="150">
 					<?php }else{ ?>
-						<img src="../../assets/images/no-image.png" width="150">
+						<img src="../assets/images/no-image.png" width="150">
 					<?php } ?>
                 </div>
             </div>
@@ -308,3 +300,4 @@
 		 reset(dropzone);
 	});
 </script>
+

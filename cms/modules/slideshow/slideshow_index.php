@@ -110,7 +110,7 @@
 			<div id="formbox" class="clearfix">
                 <div class="formlabel">Image</div>
                 <div class="forminput">
-                    <img src="../../../assets/images/slideshow/<?= $adt['slideshow_image']; ?>" width="150">
+                    <img src="../../assets/images/slideshow/<?= $adt['slideshow_image']; ?>" width="150">
                 </div>
             </div>
             <div id="formbox" class="clearfix">

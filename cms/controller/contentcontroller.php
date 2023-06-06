@@ -25,7 +25,8 @@
 		$nama_file 				= $_FILES["content_image"]["name"];
 		$tipe_file 				= $_FILES["content_image"]["type"];
 		$alamat 				= $_FILES["content_image"]["tmp_name"];
-		$nama_baru 				= $replace."_".$gencode.".".end((explode(".", $nama_file)));
+		$explode				= explode(".", $nama_file);
+		$nama_baru 				= $replace."_".$gencode.".".end($explode);
 		$tujuan 				= "../../assets/images/content/$nama_baru";
 		$updated				= date('Y-m-d H:i:s');
 		if(empty($nama_file))
@@ -70,8 +71,8 @@
 		$nama_file 				= $_FILES["content_image"]["name"];
 		$tipe_file 				= $_FILES["content_image"]["type"];
 		$alamat 				= $_FILES["content_image"]["tmp_name"];
-		$nama_baru 				= $replace."_".$gencode.".".end((explode(".", $nama_file)));
-		$tujuan 				= "../../assets/images/content/$nama_baru";
+		$explode				= explode(".", $nama_file);
+		$nama_baru 				= $replace."_".$gencode.".".end($explode);
         $updated			= date('Y-m-d H:i:s'); 
 		if(empty($nama_file))
 		{	

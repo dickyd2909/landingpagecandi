@@ -21,7 +21,8 @@
 		$nama_file 				= $_FILES["slideshow_image"]["name"];
 		$tipe_file 				= $_FILES["slideshow_image"]["type"];
 		$alamat 				= $_FILES["slideshow_image"]["tmp_name"];
-		$nama_baru 				= $replace."_".$gencode.".".end((explode(".", $nama_file)));
+		$explode				= explode(".", $nama_file);
+		$nama_baru 				= $replace."_".$gencode.".".end($explode);
 		$tujuan 				= "../../assets/images/slideshow/$nama_baru";
 		$updated				= date('Y-m-d H:i:s');
 		
@@ -51,7 +52,8 @@
 		$nama_file 				= $_FILES["slideshow_image"]["name"];
 		$tipe_file 				= $_FILES["slideshow_image"]["type"];
 		$alamat 				= $_FILES["slideshow_image"]["tmp_name"];
-		$nama_baru 				= $replace."_".$gencode.".".end((explode(".", $nama_file)));
+		$explode				= explode(".", $nama_file);
+		$nama_baru 				= $replace."_".$gencode.".".end($explode);
 		$tujuan 				= "../../assets/images/slideshow/$nama_baru";
         $updated			= date('Y-m-d H:i:s'); 
 		if(empty($nama_file))
