@@ -17,7 +17,7 @@
             ?>
                 <div class="leftbox">
                     <div class="hisleftimg">
-                        <img src="assets/images/content/<?= $hdt['content_image']; ?>" alt="<?= $hdt['content_judul']; ?>" title="<?= $hdt['content_judul']; ?>">
+                    <a href="assets/images/content/<?= $hdt['content_image']; ?>" data-fancybox="group"><img src="assets/images/content/<?= $hdt['content_image']; ?>" alt="<?= $hdt['content_judul']; ?>" title="<?= $hdt['content_judul']; ?>"></a> 
                     </div>
                     <div class="hisleftbox">
                         <div class="hislefttit">
