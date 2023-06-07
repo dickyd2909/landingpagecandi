@@ -31,7 +31,7 @@
 		$updated				= date('Y-m-d H:i:s');
 		if(empty($nama_file))
 		{
-			$sql = $koneksi->query("INSERT INTO content(content_id, content_judul, content_desc, content_url, content_status, content_order, content_metadesc, content_metakey, contentcat_id) VALUES ('$content_id', '$content_judul', '$content_desc', '$content_url', '$content_status', '$content_order', '$content_metadesc', '$content_metakey', '$contentcat_id') ")or die(mysqli_error($koneksi));
+			$sql = $koneksi->query("INSERT INTO content(content_id, content_judul, content_desc, content_url, content_status, content_order, content_metadesc, content_metakey, updated, contentcat_id) VALUES ('$content_id', '$content_judul', '$content_desc', '$content_url', '$content_status', '$content_order', '$content_metadesc', '$content_metakey', '$updated','$contentcat_id') ")or die(mysqli_error($koneksi));
 			if($sql == true){
 				$koneksi->query("INSERT INTO logscontent (logscontent_id, logscontent_status, logscontent_desc, logscontent_read, postdated, admin_id) VALUES(NULL, 'Simpan', 'Data Content: $content_judul', '1', '$updated', '$_SESSION[admin_id]')")or die(mysqli_error($koneksi));
 				$_SESSION['success'] = 'Data Content Berhasil Ditambahkan';

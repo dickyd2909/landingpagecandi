@@ -20,11 +20,25 @@
             </a>
         <?php } ?>
     </div>
+    <div class="btn-carousel-box">
+        <div class="btn-carousel-prev"><img src="assets/images/arrow2.png" alt=""></div>
+        <div class="btn-carousel-next"><img src="assets/images/arrow2.png" alt=""></div>
+    </div>
 </div>      
 <script type="text/javascript">
     $(document).ready(function(){
         $('.carousel').carousel({
             indicators : true,
         });
+
+        $('.btn-carousel-next').click(function(){
+            $('.carousel').carousel('next');
+        });
+
+        $('.btn-carousel-prev').click(function(){
+            $('.carousel').carousel('prev');
+        });
+
+
     });
 </script>

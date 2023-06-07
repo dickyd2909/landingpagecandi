@@ -29,9 +29,7 @@
     </section>
 </div>
 <script>
-    const options = {
-        Thumbs: {
-            type: "modern",
-        },
-    };
+    Fancybox.bind('[data-fancybox="gallery"]', {
+    // Your custom options
+    });
 </script>
