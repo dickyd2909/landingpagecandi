@@ -28,3 +28,10 @@
         </div>
     </section>
 </div>
+<script>
+    const options = {
+        Thumbs: {
+            type: "modern",
+        },
+    };
+</script>

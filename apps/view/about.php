@@ -16,6 +16,9 @@
 			<div class="aboutrightdesc">
 				<?= $adt['content_desc']; ?>
 			</div>
+			<div class="aboutrightbtn">
+				<a href="#" class="aboutbtn">Selengkapnya <i class="fa fa-arrow-right"></i></a>
+			</div>
 		</div>
 	</div>
 </div>
