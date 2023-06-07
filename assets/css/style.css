@@ -65,10 +65,11 @@ a {text-decoration:none;}
 
 /* slideshow */
 #bgslideshow {width:100%;margin:0 auto;}
+.imgbright{filter:brightness(0.5)}
 .imgslide{position: absolute;z-index: 999;bottom:65%;left: 42%;font-family: "Poppins",sans-serif;font-size:50px;color:#fff;}
 @media (max-width:920px){
     #bgslideshow {width:100%;margin:0 auto;}
-    .imgslide{position: absolute;z-index: 999;bottom:60%;left: 36%;font-family: "Poppins",sans-serif;font-size:80px;color:#fff;}
+    .imgslide{position: absolute;z-index: 999;bottom:60%;left: 36%;font-family: "Poppins",sans-serif;font-size:8p0px;color:#fff;}
 }
 /* #bgslideshow .waves{position: absolute;bottom: 0;left: 0;} */
 /* about */
@@ -300,3 +301,17 @@ a {text-decoration:none;}
         .carousel-info .carousel-info-tit{color:#fff;font-size:15px;margin:0 0 4%;font-family: 'Poppins', sans-serif;}
         .carousel-info .carousel-info-desc{color:#fff;font-size:13px;margin:0 auto;font-family: 'Poppins', sans-serif;}
     }
+
+.wave{position: absolute;bottom: -20;left:0;width:100%;height:90px;background:url('../images/wave.png');background-size:1920px 100px;}
+.wave.wave1{animation: animate 10s linear infinite;z-index: 1000;opacity: 1;animation-delay: 0s;bottom: -5;}
+.wave.wave2{animation: animate2 15s linear infinite;z-index: 999;opacity: 0.5;animation-delay: -3s;bottom: 6px;}
+.wave.wave3{animation: animate 10s linear infinite;z-index: 998;opacity: 0.2;animation-delay: -1s;bottom: 11;}
+.wave.wave4{animation: animate2 5s linear infinite;z-index: 997;opacity: 0.7;animation-delay: -3s;bottom: 16px;}
+@keyframes animate{
+    0%{background-position-x: 0px;}
+    100%{background-position-x: 1920px;}
+}
+@keyframes animate2{
+    0%{background-position-x: 0px;}
+    100%{background-position-x: -1920px;}
+}
