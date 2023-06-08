@@ -47,7 +47,11 @@
     <!-- section top -->
 	<div id="bgjumbo">
 		<div class="jumboimg">
-			<img src="assets/images/jumbo2.png" />
+            <?php
+                $jdb = $koneksi->query("SELECT * FROM content WHERE contentcat_id = 'CC008' ");
+                $jdt = $jdb->fetch_array();
+            ?>
+			<img src="assets/images/content/<?= $jdt['content_image']; ?>" alt="<?= $jdt['content_judul']; ?>" title="<?= $jdt['content_judul']; ?>">
 		</div>
 	</div>
     <!-- section login -->
