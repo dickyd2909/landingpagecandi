@@ -93,7 +93,7 @@
 			?>	
 				<div>
 					<img u="image" class="imgbright" src="assets/images/slideshow/<?php echo $slidt['slideshow_image'];?>" alt="<?php echo $slidt['slideshow_judul'];?>" title="<?php echo $slidt['slideshow_judul'];?>">
-						<div style="position:absolute;width:50%;height:auto;top:340px;padding:0;text-align:center;line-height:auto;text-transform:uppercase;font-weight:700;font-size:60px;font-family:'Poppins', sans-serif;color:#fff;left:50%;transform:translate(-50%, -10%);">
+						<div style="position:absolute;width:50%;height:auto;top:340px;padding:0;text-align:center;line-height:auto;text-transform:uppercase;font-weight:700;font-size:60px;color:#fff;left:50%;transform:translate(-50%, -10%);" class="slide-text">
 							<?php echo $slidt['slideshow_judul'];?>
 						</div> 
 				</div>

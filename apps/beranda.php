@@ -57,6 +57,7 @@
 	<?php site('history');?>
 	<?php site('candi3');?>
 	<?php site('galery');?>
+	<?php site('grafik');?>
 	<?php site('contactus');?>
     <?php site('footer');?>
 </Body>

@@ -48,3 +48,29 @@
 		btn.classList.toggle("active");
 	}
 </script>
+<script>
+	$(document).ready(function(){
+		$(window).resize(function(){
+			if ($(window).innerWidth() < 768) {
+				$('bgtop ul li').css('display','block');
+				$('bgtop ul').hide()
+				} else {
+				$('nav ul li').css('display','inline-block');
+				$('nav ul').show()
+			}
+		});
+		
+		$(window).resize();
+		
+	});
+	
+	$(document).on('scroll',function(){
+		
+		if ($(document).scrollTop() > 680) {
+			$('#bgtop').addClass('fixed')
+			} else {
+			$('#bgtop').removeClass('fixed')
+		}
+		
+	});
+</script>
