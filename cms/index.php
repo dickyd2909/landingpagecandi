@@ -46,7 +46,7 @@ if(isset($_SESSION['admin_username'])){
 						</div>
 						<div id="copyright">
 							<div class="copyrightlink">
-							<a href='https://olshop.maliniart.com/' target='_blank'>VIEW WEBSITE</a>
+							<a href='/beranda' target='_blank'>VIEW WEBSITE</a>
 						</div>
 							<div class="copyrightcopy">
 								&copy 2023 all right reserved
