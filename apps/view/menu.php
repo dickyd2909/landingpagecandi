@@ -25,7 +25,7 @@
 						while($mdt = $mdb->fetch_array()){
 					?>
 						<?php if($mdt['menu_id'] == 'MN001'){ ?>
-							<li><a href="/landingpagecandi<?= $mdt['menu_url'] ?>" class="active"><?= $mdt['menu_nama']; ?></a></li>
+							<li><a href="<?= $mdt['menu_url'] ?>" class="active"><?= $mdt['menu_nama']; ?></a></li>
 						<?php }else{ ?>
 							<li><a href="#<?= $mdt['menu_url'] ?>"><?= $mdt['menu_nama']; ?></a></li>
 						<?php } ?>	
