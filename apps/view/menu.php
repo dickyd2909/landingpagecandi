@@ -35,7 +35,7 @@
 		</div>
 		<div class="topright" id="btnregis">
 			<div class="toprightbutton">
-				<a href="login" class="btnlogin">Daftar Hadir</a>
+				<a href="DaftarHadir" class="btnlogin">Daftar Hadir</a>
 			</div>
 		</div>	
 	</div>
