@@ -35,8 +35,7 @@
 		</div>
 		<div class="topright" id="btnregis">
 			<div class="toprightbutton">
-				<a href="#" class="btnreg">Daftar</a>
-				<a href="#" class="btnlogin">Masuk</a>
+				<a href="login" class="btnlogin">Daftar Hadir</a>
 			</div>
 		</div>	
 	</div>

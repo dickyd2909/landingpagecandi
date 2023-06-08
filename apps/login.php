@@ -30,16 +30,16 @@
 	<meta property="article:tag" content="online shop jakarta">
 	<meta property="article:tag" content="market place jakarta">
 	<meta property="article:tag" content="website jakarta">
-    <link href="../cms/assets/images/logo/<?= $mtdt['metadata_gambar']; ?>" rel="shortcut icon" type="image/x-icon" />
-    <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="cms/assets/images/logo/<?= $mtdt['metadata_gambar']; ?>" rel="shortcut icon" type="image/x-icon" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-latest.min.js" ></script>
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<link rel="stylesheet" href="../libs/sweetalert2.min.css">
-	<script src="../libs/sweetalert2.min.js"></script>
-    <title>Ipsum Official Website Online Store</title>
+	<link rel="stylesheet" href="libs/sweetalert2.min.css">
+	<script src="libs/sweetalert2.min.js"></script>
+    <title>Candi Muara Takus</title>
 </head>
 <body>
     <!-- section top -->
@@ -47,7 +47,7 @@
     <!-- section top -->
 	<div id="bgjumbo">
 		<div class="jumboimg">
-			<img src="../assets/images/jumbo.jpg" />
+			<img src="assets/images/jumbo2.png" />
 		</div>
 	</div>
     <!-- section login -->
@@ -55,30 +55,38 @@
 		<div id="bologin">
 			<div class="login">
 				<div class="loginwel">
-					<h1>Welcome To Website Onlineshop Ipsum </h1>
+					<h1>Welcome To Candi Muara Takus</h1>
 				</div>
 				<div class="logintit">
-					Login
+					Daftar Hadir
 				</div>
 				<div class="logindesc">
-					Please Enter Your Email And Password 
+					Silahkan Isi Form Dengan benar 
 				</div>
 			</div>	
 			<form action="loginaction" method="post">
 				<div class="loginform">
 					<div class="loginformtit">
-						Email
+						Nama
 					</div>
 					<div class="loginformbox">
-						<input name="customer_email" type="text" class="formboxlogin" required>
+						<input name="nama" type="text" class="formboxlogin" placeholder="Masukan Nama Anda" required>
 					</div>
 				</div>
 				<div class="loginform">
 					<div class="loginformtit">
-						Password
+						Email
 					</div>
 					<div class="loginformbox">
-						<input name="customer_password" type="password" class="formboxlogin" required>
+						<input name="email" type="email" placeholder="Masukan Email Anda" class="formboxlogin" required>
+					</div>
+				</div>
+				<div class="loginform">
+					<div class="loginformtit">
+						Alamat
+					</div>
+					<div class="loginformbox">
+						<textarea name="alamat" class="formboxlogin" required></textarea>
 					</div>
 				</div>
 				<div class="loginbtn">
@@ -86,10 +94,7 @@
 				</div>
 				<div class="loginbottom clearfix">
 					<div class="loginbotleft">
-						Sudah punya akun?
-					</div>
-					<div class="loginbotright">
-						<a href="registrasi">Registrasi</a>
+						*Isikan form diatas untuk daftar hadir anda
 					</div>
 				</div>
 			</form>	

@@ -90,6 +90,67 @@ a {text-decoration:none;}
 .sharebtn2 img{position: absolute;top:80px;left:120px;width: 40px;}
 .sharebtn3 img{position: absolute;top:130px;left:120px;width: 40px;}
 .sharebtn4 img{position: absolute;top:180px;left:120px;width: 40px;}
+@media (max-width:920px){
+    .bgjumbo{width: 100%;margin:0 auto;padding:0;}
+    .jumboimg{width:100%;margin:0 auto;padding:0;height:auto;overflow: hidden;}
+    .jumboimg img{width:100%;filter: brightness(0.5);}
+    #bgboutpage{width:100%;margin:0 auto;padding:50px 0;}
+    #boboutpage{width:90%;margin:0 auto;padding:0;}
+    .boutpagespan{font-size:18px;font-family: "Poppins", sans-serif;font-weight: 600;color:rgba(0, 0, 0, 0.7);margin:0 auto -0.5% 2%;}
+    .boutpagetit{font-size: 30px;font-family: "Poppins", sans-serif;font-weight: 600;margin:0 auto -0.5% 0;}
+    .bouttgl{font-size: 19px;font-family: "Poppins", sans-serif;margin:0 0 4% 0;}
+    .boutpageimg{width:100%;margin: 2% auto 2%;padding: 0;text-align: center;}
+    .boutpageimg img{width: 100%;}
+    .boutpagedesc{font-size: 16px;font-family: "Poppins", sans-serif;text-align: justify;}
+    .sharebtnbox{margin:0 auto;padding:0;display: none;}
+}
+
+#bglogin{width:100%;margin:0 auto;padding:50px 0;}
+#bologin{width:400px;margin:0 auto;padding:0;}
+.login{margin:0 auto 15px;padding:0;text-align:center;}
+.loginwel{margin:0 auto;padding:0;font-size:14px;letter-spacing:2px;font-family: "Poppins", sans-serif;}
+.logintit{margin:0 auto;padding:0;font-size:30px;letter-spacing:1px;text-transform:uppercase;font-family: "Poppins", sans-serif;}
+.logindesc{margin:0 auto;padding:0;font-size:15px;letter-spacing:1px;font-family: "Poppins", sans-serif;}
+.loginform{margin:2% auto;padding:0;}
+.loginformtit{margin:0 auto;padding:0;font-size:14px;letter-spacing:0.5px;font-family: "Poppins", sans-serif;}
+.loginformbox{margin:0 auto;padding:0;font-family: "Poppins", sans-serif;}
+.formboxlogin{width:100%;margin:0 auto;padding:7px 10px;box-sizing:border-box;border-radius:3px;border:1px solid #9f9f9f;font-family: "Poppins", sans-serif;}
+.loginbtn{margin:4% auto 0;padding:0;}
+.loginbottom{margin:2% auto;padding:0;}
+.loginbotleft{margin:0 auto;padding:0;float:left;font-family: "Poppins", sans-serif;font-style: italic;color:#990000;font-size: 13px;}
+.loginbotright{margin:0 auto;padding:0;float:right;}
+.loginbotright a{color:#eb3939;font-family: "Poppins", sans-serif;}
+.loginbotright a:hover{color:#ce1717;transition:ease-in .2s;}
+.cart{color:#000;font-size:18px;float:left;margin:2px 0;}
+.cart:hover{color:#eb3939;transition:ease-in .2s;}
+.cartnum{float:right;font-size:10px;margin:-10px 0 0;padding:1px 7px; box-sizing:border-box;background:#ce1717;border-radius:50%;color:#fff;}
+.btncheck{width:100%;padding:10px;background:#8AAA3D;border:1px solid #8AAA3D;color:#fff;border-radius:3px;text-transform:uppercase;cursor:pointer;font-family: "Poppins", sans-serif;transition:ease-in .5s;transition-delay: .1s;}
+.btncheck:hover{background:#fff;color:#8AAA3D;transition:ease-in .5s;transition-delay: .1s;}
+.swal2-title{font-family: "Poppins", sans-serif !important;}
+.swal2-html-container{font-family: "Poppins", sans-serif !important;}
+@media (max-width:920px){
+    #bglogin{width:100%;margin:0 auto;padding:50px 0;}
+    #bologin{width:90%;margin:0 auto;padding:0;}
+    .login{margin:0 auto 15px;padding:0;text-align:center;}
+    .loginwel{margin:0 auto;padding:0;font-size:14px;letter-spacing:2px;font-family: "Poppins", sans-serif;}
+    .logintit{margin:0 auto;padding:0;font-size:30px;letter-spacing:1px;text-transform:uppercase;font-family: "Poppins", sans-serif;}
+    .logindesc{margin:0 auto;padding:0;font-size:15px;letter-spacing:1px;font-family: "Poppins", sans-serif;}
+    .loginform{margin:2% auto;padding:0;}
+    .loginformtit{margin:0 auto;padding:0;font-size:14px;letter-spacing:0.5px;font-family: "Poppins", sans-serif;}
+    .loginformbox{margin:0 auto;padding:0;font-family: "Poppins", sans-serif;}
+    .formboxlogin{width:100%;margin:0 auto;padding:7px 10px;box-sizing:border-box;border-radius:3px;border:1px solid #9f9f9f;font-family: "Poppins", sans-serif;}
+    .loginbtn{margin:4% auto 0;padding:0;}
+    .loginbottom{margin:2% auto;padding:0;}
+    .loginbotleft{margin:0 auto;padding:0;float:left;font-family: "Poppins", sans-serif;font-style: italic;color:#990000;font-size: 13px;}
+    .loginbotright{margin:0 auto;padding:0;float:right;}
+    .loginbotright a{color:#eb3939;font-family: "Poppins", sans-serif;}
+    .loginbotright a:hover{color:#ce1717;transition:ease-in .2s;}
+    .cart{color:#000;font-size:18px;float:left;margin:2px 0;}
+    .cart:hover{color:#eb3939;transition:ease-in .2s;}
+    .cartnum{float:right;font-size:10px;margin:-10px 0 0;padding:1px 7px; box-sizing:border-box;background:#ce1717;border-radius:50%;color:#fff;}
+    .btncheck{width:100%;padding:10px;background:#8AAA3D;border:1px solid #8AAA3D;color:#fff;border-radius:3px;text-transform:uppercase;cursor:pointer;font-family: "Poppins", sans-serif;transition:ease-in .5s;transition-delay: .1s;}
+    .btncheck:hover{background:#fff;color:#8AAA3D;transition:ease-in .5s;transition-delay: .1s;}
+}
 /* #bgslideshow .waves{position: absolute;bottom: 0;left: 0;} */
 /* about */
 #bgabout{width:100%;margin: 0 auto;padding:100px 0;}

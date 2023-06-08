@@ -6,6 +6,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule ^login$ apps/login.php [L]
+RewriteRule ^loginaction$ apps/loginaction.php [L]
 RewriteRule ^beranda$ apps/beranda.php [L]
 RewriteRule ^about$ apps/aboutpage.php [L]
 RewriteCond %{HTTPS} off
