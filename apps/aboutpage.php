@@ -19,11 +19,11 @@
 	<meta name="robots" content="index, follow">
 	<meta name="developer" content="dickydarmawan">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="author" content="Maliniart Olshop">
+	<meta name="author" content="Candi Muara Takus">
 	<meta name="copyright" content="<?= $mtdt['metadata_copyright']; ?>">
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Maliniart Olshop" />
+	<meta property="og:title" content="Candi Muara Takus" />
 	<meta property="og:description" content="<?= $mtdt['metadata_description']; ?>" />
 	<meta property="og:url" content="<?= $mtdt['metadata_url']; ?>" />
 	<meta property="og:site_name" content="candi muara takus" />
@@ -60,16 +60,16 @@
     <div id="bgboutpage">
         <div class="sharebtnbox">
             <div class="sharebtn">
-                <a href=""><img src="assets/images/fb2.png" alt=""></a>
+                <a href="http://www.facebook.com/sharer.php?u=https://candi.maliniartstudio.com/about" target="_blank"><img src="assets/images/fb2.png" alt=""></a>
             </div>
             <div class="sharebtn2">
-                <a href=""><img src="assets/images/ig2.png" alt=""></a>
+                <a href="https://twitter.com/share?url=https://candi.maliniartstudio.com/about" target="_blank"><img src="assets/images/ig2.png" alt=""></a>
             </div>
             <div class="sharebtn3">
-                <a href=""><img src="assets/images/tw2.png" alt=""></a>
+                <a href="https://twitter.com/share?url=https://candi.maliniartstudio.com/about" target="_blank"><img src="assets/images/tw2.png" alt=""></a>
             </div>
             <div class="sharebtn4">
-                <a href=""><img src="assets/images/lk2.png" alt=""></a>
+                <a href="http://www.linkedin.com/shareArticle?mini=true&url=https://candi.maliniartstudio.com/about" target="_blank"><img src="assets/images/lk2.png" alt=""></a>
             </div>
         </div>
         

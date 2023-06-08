@@ -19,11 +19,11 @@
 	<meta name="robots" content="index, follow">
 	<meta name="developer" content="dickydarmawan">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="author" content="Maliniart Olshop">
+	<meta name="author" content="Candi Muara Takus">
 	<meta name="copyright" content="<?= $mtdt['metadata_copyright']; ?>">
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Maliniart Olshop" />
+	<meta property="og:title" content="candi muara takus" />
 	<meta property="og:description" content="<?= $mtdt['metadata_description']; ?>" />
 	<meta property="og:url" content="<?= $mtdt['metadata_url']; ?>" />
 	<meta property="og:site_name" content="candi muara takus" />
