@@ -223,7 +223,7 @@ a {text-decoration:none;}
 .his2tit{margin:0 auto;padding:0;font-size:17px;font-weight: 700;font-family: 'Quattrocento Sans', sans-serif;}
 .his2desc{margin:0 auto;padding:0;font-size:20px;font-weight: 300;letter-spacing: 1px;font-family: 'Poppins', sans-serif;}
 .his2img{width:100%;margin:0 auto;padding:0}
-.his2img img{width:100%;}
+.his2img video{width:100%;}
 @media(max-width:920px){
     #bghis2{width:100%;margin:0 auto;padding:20px 0;}
     #bohis2{width:90%;margin:0 auto;padding:0;}

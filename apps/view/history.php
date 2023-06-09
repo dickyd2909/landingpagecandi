@@ -7,7 +7,10 @@
         <div class="his2tit">HISTORY</div>
         <div class="his2desc"><?= $hidt['content_judul']; ?></div>
         <div class="his2img">
-            <img src="assets/images/content/<?= $hidt['content_image']; ?>" alt="<?= $hidt['content_judul']; ?>" title="<?= $hidt['content_judul']; ?>">
+        <video class="video" preload="auto" autoplay muted>
+            <source src="assets/video/motion.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         </div>
     </div>
 </div>
