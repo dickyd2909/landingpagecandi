@@ -14,7 +14,7 @@ RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
 # protect database order allow,deny deny from all
-ErrorDocument 404 https://presensi.maliniart.id/page-not-found
+ErrorDocument 404 https://candi.maliniartstudio.com/page-not-found
 </IfModule>
 
 # php -- BEGIN cPanel-generated handler, do not edit
