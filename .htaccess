@@ -8,6 +8,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^DaftarHadir$ apps/login.php [L]
 RewriteRule ^loginaction$ apps/loginaction.php [L]
 RewriteRule ^beranda$ apps/beranda.php [L]
+RewriteRule ^page-not-found$ apps/error404.php [L]
 RewriteRule ^about$ apps/aboutpage.php [L]
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}

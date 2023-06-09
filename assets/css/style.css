@@ -216,6 +216,10 @@ a {text-decoration:none;}
     .hislefttit{margin:0 auto 4%;padding:0;font-size:16px;font-weight: 600;font-family: 'Poppins', sans-serif;}
     .hisleftdesc{margin:0 auto;padding:0;font-size:14px;font-weight:300;font-family: 'Poppins', sans-serif;} 
 }
+#error{ width:80%;margin:0 auto;padding:50px; box-sizing: border-box;font-size: 30px;font-family: "Poppins", sans-serif;}
+@media (max-width:920px){
+    #error{ width:80%;margin:0 auto;padding:50px; box-sizing: border-box;font-size: 25px;font-family: "Poppins", sans-serif;}
+}
 
 /* history */
 #bghis2{width:100%;margin:0 auto;padding:50px 0;}
