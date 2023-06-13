@@ -7,8 +7,8 @@
         <div class="his2tit">HISTORY</div>
         <div class="his2desc"><?= $hidt['content_judul']; ?></div>
         <div class="his2img">
-        <video class="video" preload="auto" autoplay muted controls loop>
-            <source src="assets/video/anim.mp4" type="video/mp4">
+        <video class="video" preload="auto" autoplay loop muted>
+            <source src="assets/video/animation_new.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         </div>

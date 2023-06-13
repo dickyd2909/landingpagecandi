@@ -452,6 +452,7 @@ a {text-decoration:none;}
 .popup.active{
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
+    z-index:999;
 }
 .popup.active .close-btn,
 .popup.active .image-name,
