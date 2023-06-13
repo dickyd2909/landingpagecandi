@@ -1,5 +1,6 @@
 <div id="bggraf">
     <div id="bograf">
+      <div id="grafbox" class="clearfix">
         <div class="chartjs">
             <div class="chart-top">
                 <div class="charttit">GRAFIK</div>
@@ -12,7 +13,19 @@
             </div>
             <canvas id="myChart"></canvas>
         </div>
-        
+        <?php
+          $cdb = $koneksi->query("SELECT * FROM content WHERE contentcat_id = 'CC007' AND content_id = 'CO017' ");
+          $cdt = $cdb->fetch_array();
+        ?>
+        <div class="ket-candi">
+            <div class="ket-candi-tit">
+              <?= $cdt['content_judul']; ?>
+            </div>
+            <div class="ket-candi-par">
+              <?= $cdt['content_desc']; ?>
+            </div>
+        </div>
+      </div>    
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

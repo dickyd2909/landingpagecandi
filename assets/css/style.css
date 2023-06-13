@@ -652,12 +652,15 @@ a {text-decoration:none;}
 }
 
 #bggraf{width:100%;margin:0 auto;padding: 50px 0;}
-#bograf{width:50%;margin:0 auto;padding: 0;}
-.chartjs{margin:2% auto;padding:120px 60px 60px;box-sizing: border-box;border-radius: 10px;box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);position: relative;}
+#bograf{width:90%;margin:0 auto;padding: 0;}
+#grafbox{margin:0 auto;padding:0;}
+.chartjs{width:48%;float:left;margin:2% 2% 0 0;padding:120px 60px 60px;box-sizing: border-box;border-radius: 10px;box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.4);position: relative;}
 .chartjs .chart-top{position:absolute;top:0;left:0;padding:5px 30px;box-sizing: border-box;background:rgba(0,0,0,0.03);width: 100%;border-radius: 10px 10px 0 0;border-bottom:1px solid #ddd;}
 .charttit{margin:0 auto;padding:0;font-size:17px;font-weight: 700;font-family: 'Quattrocento Sans', sans-serif;}
 .chartdesc{margin:0 auto;padding:0;font-size:20px;font-weight: 300;letter-spacing: 1px;font-family: 'Poppins', sans-serif;}
-
+.ket-candi{width:50%;margin:0 auto;padding:40px 60px 60px;float:left;}
+.ket-candi-tit{margin:1% auto;padding:0;text-align: justify;font-size: 23px;font-weight: 600; color: #8AAA3D;}
+.ket-candi-par{margin:1% auto;padding:0;text-align: justify;font-size: 18px;font-weight: 300; color: #000;line-height: 1.5;}
 @media(max-width:920px){
     #bggraf{width:100%;margin:0 auto;padding: 20px 0;}
     #bograf{width:90%;margin:0 auto;padding: 0;}
