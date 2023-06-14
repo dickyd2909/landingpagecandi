@@ -192,7 +192,7 @@
 			<div id="formbox" class="clearfix">
                 <div class="formlabel">Deskirpsi</div>
                 <div class="forminput">
-                    <textarea name="content_desc" class="form-control" id="content<?= $adt['content_id'] ?>" value="<?= $adt['content_desc']; ?>"><?= $adt['content_desc']; ?></textarea>
+                    <textarea name="content_desc" class="form-control" id="content<?= $adt['content_id'] ?>"><?= $adt['content_desc']; ?></textarea>
 					<script type="text/javascript">
 						CKEDITOR_BASEPATH = 'ckeditor';
 						var editor = CKEDITOR.replace('content<?= $adt['content_id'] ?>', {

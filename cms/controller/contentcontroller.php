@@ -73,6 +73,7 @@
 		$alamat 				= $_FILES["content_image"]["tmp_name"];
 		$explode				= explode(".", $nama_file);
 		$nama_baru 				= $replace."_".$gencode.".".end($explode);
+		$tujuan 				= "../../assets/images/content/$nama_baru";
         $updated			= date('Y-m-d H:i:s'); 
 		if(empty($nama_file))
 		{	
