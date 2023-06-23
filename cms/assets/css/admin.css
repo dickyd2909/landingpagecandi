@@ -357,3 +357,5 @@ a {text-decoration:none;}
   border-radius: 0;
   margin-bottom: 0;
 }
+
+table.dataTable.display tbody tr td{vertical-align: top;}
