@@ -1,7 +1,7 @@
 <div id="bghis">
     <div id="bohis">
     <div class="galtit">
-            Sejarah
+            Candi
         </div>
         <div class="galdesc">
             <?php
